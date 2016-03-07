@@ -18,5 +18,6 @@
 # table volumes(ID_CALL, V_ID, V_NAME, C_ID, ...)
 # table network(ID_CALL, ...)
 # table subnet(ID_CALL, ...)
+# table loadBalancer (ID_CALL, ...)
 
 #
