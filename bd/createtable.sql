@@ -1,5 +1,3 @@
-# gmoulard - je ne me rappel plus trop comment ont fait les create table alors, je ne fait que des commentaires :)
-
 # table applicationUser(email, shaPassword, nom, pnom, tokenValidated)
 # mettre validated dans tokenValidated aprés validation du token ou une clef ramdom pour le token de validation
 
@@ -22,4 +20,3 @@
 # table subnet(ID_CALL, ...)
 # table loadBalancer (ID_CALL, ...)
 
-#
