@@ -2,7 +2,7 @@
 # mettre validated dans tokenValidated aprés validation du token ou une clef ramdom pour le token de validation
 
 # table tenantList(email, ID_T, OS_AUTH_URL, OS_REGION_NAME, OS_TENANT_ID, OS_TENANT_NAME, OS_PROJECT_NAME, OS_USERNAME, OS_PASSWORD, YamlSave)
-# table API(ID_API, API_LIB, API_URL, ORDER)
+# table OS_API(ID_API, API_LIB, API_URL, ORDER)
 
 # table APICall(ID_CALL, ID_T, DATE_CALL)
 
