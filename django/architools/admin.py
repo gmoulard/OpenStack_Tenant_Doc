@@ -2,20 +2,20 @@ from django.contrib import admin
 
 # Register your models here.
 
-from .models import TenantList
-admin.site.register(TenantList)
+from .models import TENANTLIST
+admin.site.register(TENANTLIST)
 
 from .models import OS_API
 admin.site.register(OS_API)
 
 
-from .models import APICall
-admin.site.register(APICall)
+from .models import APICALL
+admin.site.register(APICALL)
 
 
-from .models import APICall_Memo
-admin.site.register(APICall_Memo)
+from .models import APICALL_MEMO
+admin.site.register(APICALL_MEMO)
 
 
-from .models import APICallExec
-admin.site.register(APICallExec)
+from .models import APICALLEXEC
+admin.site.register(APICALLEXEC)
