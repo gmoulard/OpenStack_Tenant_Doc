@@ -1,22 +1,20 @@
-# table applicationUser(email, shaPassword, nom, pnom, tokenValidated)
+# TABLE APPLICATIONUSER(EMAIL, SHAPASSWORD, NOM, PNOM, TOKENVALIDATED)
 # mettre validated dans tokenValidated aprés validation du token ou une clef ramdom pour le token de validation
 
-# table tenantList(email, ID_T, OS_AUTH_URL, OS_REGION_NAME, OS_TENANT_ID, OS_TENANT_NAME, OS_PROJECT_NAME, OS_USERNAME, OS_PASSWORD, YamlSave)
-# table OS_API(ID_API, API_LIB, API_URL, ORDER)
+# TABLE TENANTLIST(ID, EMAIL, ID_T, OS_AUTH_URL, OS_REGION_NAME, OS_TENANT_ID, OS_TENANT_NAME, OS_PROJECT_NAME, OS_USERNAME, OS_PASSWORD, YAMLSAVE, YAMLFILE)
+# TABLE OS_API(ID, API_LIB, API_URL, ORDER)
+# TABLE APICALL(ID, ID_T, DATE_CALL)
+# TABLE APICALL_MEMO(ID, ID_CALL, ID_API, VALUE_NAME, VALUE_MEMO)
+# TABLE APICALLEXEC(ID, ID_CALL, ID_API,  JSON_URLFILE, JSON_DATA)
 
-# table APICall(ID_CALL, ID_T, DATE_CALL)
+# TABLE COMPUTE (ID_CALL, C_ID, C_NAME, ...)
 
-# table APICall_Memo(ID_CALL, ID_API, VALUE_NAME, VALUE_MEMO)
-# table APICallExec(ID_CALL, ID_API,  JSON_URL_STORAGE_NAME, JSON_DATA)
+# TABLE SEC_GROUP(ID_CALL, SG_ID, SG_NAME, ...)
+# TABLE COMPUTE_SEC_GROUP(ID_CALL, C_ID, SG_ID)
+# TABLE SEC_GROUP_RULES(ID_CALL, SG_IG, ...)
 
-# table compute (ID_CALL, C_ID, C_NAME, ...)
-
-# table sec_group(ID_CALL, SG_ID, SG_NAME, ...)
-# table compute_sec_group(ID_CALL, C_ID, SG_ID)
-# table sec_group_rules(ID_CALL, SG_IG, ...)
-
-# table volumes(ID_CALL, V_ID, V_NAME, C_ID, ...)
-# table network(ID_CALL, ...)
-# table subnet(ID_CALL, ...)
-# table loadBalancer (ID_CALL, ...)
+# TABLE VOLUMES(ID_CALL, V_ID, V_NAME, C_ID, ...)
+# TABLE NETWORK(ID_CALL, ...)
+# TABLE SUBNET(ID_CALL, ...)
+# TABLE LOADBALANCER (ID_CALL, ...)
 
