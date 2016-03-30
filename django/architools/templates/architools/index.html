@@ -1,0 +1,14 @@
+<h1> Liste des tenants</h1>
+{% if latest_TENANTLIST_list %}
+    <ul>
+    {% for TENANTLIST in latest_TENANTLIST_list %}
+        <li><a href="/architools/{{ TENANTLIST.id }}/">{{ TENANTLIST.OS_TENANT_NAME }}</a>
+        <br>
+        <li><a href="{% url 'detail' TENANTLIST.id %}">{{ TENANTLIST.OS_TENANT_NAME }}</a>
+        
+       </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No TENANTLIST are available.</p>
+{% endif %}
